@@ -1,5 +1,5 @@
 //https://www.geeksforgeeks.org/pascal-triangle/
-const pascalTriangle = (n) =>
+function pascalTriangle(n)
 {
     document.write("<pre>");
     for(let line = 1; line <= n; line++) 

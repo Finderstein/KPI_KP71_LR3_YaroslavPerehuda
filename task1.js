@@ -15,7 +15,7 @@ while(true)
             {
                 let index1 = Math.floor(Math.random() * 5);
                 let index2 = Math.floor(Math.random() * 5);
-                alert("Ви укладите шлюб з " + partner[index1] + " та у вас буде " + children[index2] + " дітей ");
+                alert(`Ви укладите шлюб з ${partner[index1]} та у вас буде ${children[index2]} дітей`);
             }
 
             break;
@@ -27,7 +27,7 @@ while(true)
             {
                 let index1 = Math.floor(Math.random() * 5);
                 let index2 = Math.floor(Math.random() * 5);
-                alert("Ви переїдете у місто " + city[index1] + " на посаду " + profession[index2]);
+                alert(`Ви переїдете у місто ${city[index1]} на посаду  ${profession[index2]}`);
             }
             break;
         }
